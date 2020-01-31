@@ -183,16 +183,28 @@ figure {
     display: flex;
     justify-content: space-around;
     align-items: center;  
+    overflow: hidden;
 }
 
 ul, li, img {
     padding: 0;
 }
 
+
+.social-media{
+    display: flex;
+}
+
+
 .social-media, img{
     width: 40px;
     margin: 0;
+    padding: 10px;
 }
+
+
+
+
 
 .text-footer > p{
     margin: 0;
